@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AutoPost – Privacy Policy</title>
+<style>
+  body{margin:0;background:#0b0b0b;color:#eee;font:16px/1.6 "Segoe UI",system-ui,sans-serif}
+  main{max-width:760px;margin:0 auto;padding:40px 16px}
+  h1{color:#fff;margin-bottom:4px} h2{color:#ff6a00;margin-top:32px;font-size:1.15rem}
+  .muted{color:#999;font-size:.9rem} a{color:#ff8533}
+</style>
+</head>
+<body>
+<main>
+<h1>AutoPost – Privacy Policy</h1>
+<p class="muted">Last updated: October 17, 2026</p>
+
+<p>AutoPost is a personal desktop application that runs locally on the user's own Windows computer
+and publishes videos chosen by the user to the user's own TikTok and YouTube accounts at times
+the user schedules. AutoPost has no servers, no website backend and no user database operated by
+the developer.</p>
+
+<h2>1. Information we access</h2>
+<p>When you connect your TikTok account, AutoPost requests only the following permissions:</p>
+<ul>
+  <li><b>user.info.basic</b> – to show your display name inside the app so you can confirm which account is connected.</li>
+  <li><b>video.publish</b> – to publish the videos you place in the app's <code>videos</code> folder to your own TikTok account.</li>
+</ul>
+<p>AutoPost does not read your followers, messages, likes, comments, analytics or any other account data.</p>
+
+<h2>2. Where your data is stored</h2>
+<p>All data stays on your own computer (or USB drive) inside the AutoPost folder:</p>
+<ul>
+  <li>OAuth access and refresh tokens are saved in <code>data/tokens/</code>.</li>
+  <li>The posting queue and history are saved in a local SQLite file (<code>data/queue.db</code>).</li>
+  <li>Logs are saved in <code>data/logs/</code>.</li>
+</ul>
+<p>None of this information is sent to the developer or to any third party.</p>
+
+<h2>3. Data sharing</h2>
+<p>AutoPost communicates only with the official TikTok API (open.tiktokapis.com) and the official
+YouTube Data API (googleapis.com), and only to authenticate you and upload the videos you selected.
+We do not sell, rent or share personal data, and we do not use analytics, advertising or tracking tools.</p>
+
+<h2>4. Data retention and deletion</h2>
+<p>You can remove access at any time by clicking <b>Disconnect</b> in AutoPost (which revokes and deletes
+the local token), by revoking the app in your TikTok account settings, or simply by deleting the
+AutoPost folder. Because nothing is stored outside your computer, deleting the folder removes all data.</p>
+
+<h2>5. Children</h2>
+<p>AutoPost is not directed to children under 13 and must be used in accordance with TikTok's and
+YouTube's own age requirements.</p>
+
+<h2>6. Changes</h2>
+<p>If this policy changes, the updated version will be published at this same address with a new date.</p>
+
+<h2>7. Contact</h2>
+<p>Questions about this policy: <b><a href="mailto:ramon.dt4@gmail.com">ramon.dt4@gmail.com</a></b></p>
+</main>
+</body>
+</html>
